@@ -8,8 +8,8 @@ const nextPage: React.FC = () => {
   return (
     <div className="flex flex-col items-center">
       <motion.img
-        src={'/img/nextjs.svg'}
-        layoutId={'nextjs-logo'}
+        src={'/img/tailwind.svg'}
+        layoutId={'tailwind-logo'}
         transition={{ duration: 0.5 }}
       />
 

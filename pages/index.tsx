@@ -31,7 +31,7 @@ const Card: React.FC<CardProps> = ({ href, imgSrc, layoutId }) => {
 
 export default function Home() {
   return (
-    <Layout>
+    <div>
       <h1
         className="
           text-4xl 
@@ -47,7 +47,7 @@ export default function Home() {
         Construa sites modernos com agilidade sem sair do HTML.
       </h1>
 
-      <div 
+      <div
         className="
           mt-10 md:mt-24 
           grid w-full 
@@ -71,11 +71,11 @@ export default function Home() {
         />
 
         <Card
-          href={'/framermotion'}
+          href={'/framer-motion'}
           imgSrc={'/img/framermotion.svg'}
           layoutId={'framermotion-logo'}
         />
       </div>
-    </Layout>
+    </div>
   )
 }

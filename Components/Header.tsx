@@ -15,7 +15,7 @@ const Header: React.FC = () => {
           <a className="tracking-wide hover:text-gray-300">Tailwind</a>
         </Link>
 
-        <Link href="/framermotion">
+        <Link href="/framer-motion">
           <a className="tracking-wide hover:text-gray-300">Framer Motion</a>
         </Link>
       </nav>
